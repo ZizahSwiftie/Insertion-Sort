@@ -29,10 +29,10 @@ for (int i = 0; i < n; i++) // Menggunakan perulangan for untuk menyimpan data p
 cout << "Data ke-" << i + 1 << " : "; // Memasukkan atau menginputkan nilai data n
 cin >> arr[i]; // Menyimpan nilai data n kedalam array arr
 }
-};
+}
 
-void insertion_sort()
-{ // Procedure Insertion Sort
+void insertionsort ()
+{ // Procedure Insertionsort
 
 int temp; // Membuat variable data temporer atau penyimpanan sementara
 int j, i; // Membuat variable j sebagai penanda
@@ -76,5 +76,5 @@ input ();
 insertionSort ();
 display ();
 system ("pause"); // Output ke layar
-return 0;
+return 0; // Output ke layar
 }
