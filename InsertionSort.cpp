@@ -75,6 +75,6 @@ int main ()
 input ();
 insertionSort ();
 display ();
-system ("pause");
+system ("pause"); // Output ke layar
 return 0;
 }
